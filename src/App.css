@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+
+body {
+    width: 100%; 
+    height: 100%;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.centerDiv {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sectionStyle {
+    
+    background-image: url("C:/Users/thoma/tomtheboom.com/src/Images/backgroundHomeBlurred.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top:0;
+    height: 100%;
+
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ContactMe {
+    background-color: '#0D0C1D';
+    width: 100%;
+    height: 1500px;
+    position: absolute;
+    left:0;
 }
 
-.App-link {
-  color: #61dafb;
+.Phone-contentSection {
+    font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu {
+    top: 5%;
+    position: fixed;
 }
+
+
+
+
+
